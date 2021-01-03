@@ -1,0 +1,24 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "additionalProperties": false,
+    "properties":{
+        "cID": {
+            "type": "integer"
+        },
+        "cName": {
+            "type": "string",
+            "minLength": 1
+        },
+        "cTel": {
+            "type": "number"
+        },
+        "cAddress": {
+            "type": "string"
+        },
+        "cRegisterDate": {
+            "type": "string"
+        }
+    },
+    "required": [ "cName" ]
+}
