@@ -32,10 +32,10 @@ GET /customers?cName={cName} # Find a customer whose name has this prefix
     "size": 2,
     "customers": [
         {
-            "cID": 19,
-            "cName": "ba",
-            "cTel": 0,
-            "cAddress": ""
+            "cID": 5,
+            "cName": "Ahmad",
+            "cTel": 9132582649,
+            "cAddress": "Tehran, Valiasr St."
             "cRegisterDate": "2021-01-01",
         },
         ...
